@@ -1,0 +1,187 @@
+body {
+  font-family: 'Montserrat', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fdfaf6;
+  color: #3e2723;
+  padding-top: 0.5rem;
+}
+
+header {
+  background: #6b4f4f;
+  color: #fff;
+  padding: 2rem 1rem 1rem 1rem;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(107, 79, 79, 0.1);
+}
+
+header h1 {
+  margin: 0 0 0.5rem 0;
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+}
+
+nav {
+  margin-top: 0.5rem;
+}
+
+nav a {
+  color: #fff;
+  margin: 0 1.2rem;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.1rem;
+  transition: color 0.2s;
+}
+
+nav a:hover {
+  color: #ffe082;
+}
+
+.hero {
+  padding: 3rem 1rem 2rem 1rem;
+  text-align: center;
+  background: linear-gradient(120deg, #f4e8d1 60%, #ffe082 100%);
+  box-shadow: 0 2px 8px rgba(244, 232, 209, 0.1);
+}
+
+.hero h2 {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  background: #6b4f4f;
+  color: #fff;
+  padding: 0.75rem 2rem;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.1rem;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.2s;
+  box-shadow: 0 2px 8px rgba(107, 79, 79, 0.08);
+  display: inline-block;
+}
+
+.btn:hover {
+  background: #8d6e63;
+  transform: translateY(-2px) scale(1.04);
+}
+
+.featured {
+  background: #fff8e1;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.featured h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.product {
+  display: inline-block;
+  background: #fff;
+  color: #6b4f4f;
+  margin: 0.5rem 1rem;
+  padding: 1.2rem 2rem;
+  border-radius: 18px;
+  box-shadow: 0 2px 8px rgba(107, 79, 79, 0.08);
+  font-size: 1.1rem;
+  font-weight: 600;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.product:hover {
+  box-shadow: 0 6px 18px rgba(107, 79, 79, 0.18);
+  transform: translateY(-4px) scale(1.03);
+}
+
+.product-img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(107, 79, 79, 0.12);
+  margin-bottom: 0.7rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.product-label {
+  font-size: 1.08rem;
+  font-weight: 600;
+  color: #6b4f4f;
+  margin-top: 0.2rem;
+}
+
+.menu {
+  max-width: 700px;
+  margin: 2rem auto;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 2px 12px rgba(107, 79, 79, 0.08);
+  padding: 2rem 2rem 1.5rem 2rem;
+}
+
+.menu h2 {
+  color: #6b4f4f;
+  margin-top: 1.5rem;
+  font-size: 1.3rem;
+  border-bottom: 1px solid #ffe082;
+  padding-bottom: 0.3rem;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1.5rem 0;
+}
+
+.menu li {
+  padding: 0.5rem 0;
+  border-bottom: 1px dashed #ffe082;
+  font-size: 1.1rem;
+}
+
+.menu li:last-child {
+  border-bottom: none;
+}
+
+.about {
+  max-width: 700px;
+  margin: 2rem auto;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 2px 12px rgba(107, 79, 79, 0.08);
+  padding: 2rem 2rem 1.5rem 2rem;
+  text-align: center;
+}
+
+.about h2 {
+  color: #6b4f4f;
+  margin-bottom: 1rem;
+}
+
+.contact {
+  max-width: 700px;
+  margin: 2rem auto;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 2px 12px rgba(107, 79, 79, 0.08);
+  padding: 2rem 2rem 1.5rem 2rem;
+}
+
+.contact h2 {
+  color: #6b4f4f;
+  margin-bottom: 1rem;
+  text-align: center;
+}
